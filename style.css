@@ -1,0 +1,64 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+margin: 0;
+display: flex;
+flex-direction: column;
+background-position: center center;
+background-image: url('tree.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+/* font-family: sans-serif;
+ */
+font-family: 'Dancing Script', cursive;
+}
+h1{
+	font-size:4rem;
+	margin-top: -11rem;
+	border-radius: 10px;
+	color: #fff;
+	animation-name: count;
+	animation-iteration-count:infinite;
+	animation-duration:2s;
+}
+@keyframes count{
+	from{
+		color: green;
+		/* background-color: pink; */
+	}
+	to{
+	 color: skyblue;
+	 /* background-color: grey; */
+	}
+}
+.container{
+display: flex;
+color: #fff;
+border-radius: 15px;
+
+background-image: url('text.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+/* margin-top: 13%;
+background-size:800px */;
+
+
+}
+.big-text {
+	font-size: 6rem;
+	line-height: 1;
+	margin: 0 2rem;
+
+}
+.countdown-el{
+	text-align: center;
+}
+.countdown-el span{
+	font-size: 1.7rem;
+	
+}
